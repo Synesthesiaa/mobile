@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#734CFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#734CFF"
+        tools:context=".Data_Gathering_and_Procedure">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/textView1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/_81181027_5138881112857924_4847457469443161260_n__1_" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="402dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="4dp"
+            android:lineSpacingExtra="8sp"
+            android:text="Data Gathering and Procedure"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="348dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#FFFFFF"
+            android:lineSpacingExtra="8sp"
+            android:padding="5sp"
+            android:radius="10dp"
+            android:text="The researchers have finalized the aim and discussed the impact of the smartphone to the academic performance of students based on perception of selected Grade-11 IT Students and has decided to conduct data gathering using a Qualitative questionnaire. The questionnaire is a set of questions used to conduct a survey, which is the process of gathering, sampling, analyzing, and interpreting data from a group of people. Questionnaires for data gathering will be properly distributed and administered online for the respondents to answer. The researchers had selected 15 respondents from Grade-11 IT Senior High School students as the respondents. Respondents will be given enough time to accomplish answering the questionnaire, once the respondents are done researchers are to check and collect the data ensuring all questionnaires are answered completely and accurately. The results will be recorded, tallied, and review for interpretation and will then be used to create conclusions and use for analyzation.
+
+"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="76dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="148dp"
+            android:layout_marginEnd="48dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#FFFFFF"
+            android:radius="30dp"
+            android:textAlignment="viewStart"
+            app:icon="@drawable/ic_baseline_arrow_back_24"
+            app:iconSize="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

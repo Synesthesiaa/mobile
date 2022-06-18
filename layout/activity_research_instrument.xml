@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#734CFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#734CFF"
+        tools:context=".Research_Instrument">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/textView1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/_81181027_5138881112857924_4847457469443161260_n__1_" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="402dp"
+            android:layout_height="90dp"
+            android:layout_marginTop="4dp"
+            android:lineSpacingExtra="8sp"
+            android:text="RESEARCH INSTRUMENT"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="335dp"
+            android:layout_height="222dp"
+            android:layout_marginTop="348dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#FFFFFF"
+            android:lineSpacingExtra="8sp"
+            android:radius="10dp"
+            android:text="The instrument that the researchers used is an open-ended questionnaire wherein it consists a set of standardized questions to collect information’s from the respondents and it is also used to verify the number of specific line of inquiries, steps, or actions that are being or have been taken by the researches to be brought up by upon obtaining answers from the respondents during the online interview."
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:padding="5sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="148dp"
+            android:layout_marginEnd="48dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#FFFFFF"
+            android:radius="30dp"
+            android:textAlignment="viewStart"
+            app:icon="@drawable/ic_baseline_arrow_back_24"
+            app:iconSize="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

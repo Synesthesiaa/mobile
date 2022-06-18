@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#734CFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#734CFF"
+        tools:context=".Foreign_Literature">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/textView1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/_81181027_5138881112857924_4847457469443161260_n__1_" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="402dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="16dp"
+            android:lineSpacingExtra="8sp"
+            android:text="Foreign Literature"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="39sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="348dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#FFFFFF"
+            android:lineSpacingExtra="8sp"
+            android:padding="10sp"
+            android:radius="10dp"
+            android:text="As a matter of fact, one of the most important features of the evolving features of the smartphone is its small or rather portable size and its ability to be used not only in classroom, but also out the classroom (Mokoena, 2012){1}. There are some medical concern that have been raised in association with the use of smartphones; there also happens to be effects such as insomnia, anxiety, misery and others (Ezemenaka, 2013){2}, all there effects usually develop when students find themselves without their cell phones (Ebiye , 2015).{3} 1. Mokoena, S. (2012). Smartphones and regular cellular phones: assessing their impact on students’ education at the University of Zululand. Doctoral dissertation, University of Zululand. 2. Ezemenaka, E. (2013). The usage and impact of Internet enabled phones on academic concentration among students of tertiary institutions: A study at the University of Ibadan, Nigeria. International Journal of Education and Development using Information and Communication Technology (IJEDICT), 9(3), 162–173. 3. Ebiye, E. V. (2015). Impact of smartphone and tablets on the information seekingbehaviour of medical students and staff of Niger Delta University Bayelsa State – Nigeria. Library Philosophy and Practice (e-journal). Paper 1288"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="76dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="52dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#FFFFFF"
+            android:radius="30dp"
+            android:textAlignment="viewStart"
+            app:icon="@drawable/ic_baseline_arrow_back_24"
+            app:iconSize="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

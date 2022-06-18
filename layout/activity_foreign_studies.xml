@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#734CFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#734CFF"
+        tools:context=".Foreign_Studies">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/textView1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/_81181027_5138881112857924_4847457469443161260_n__1_" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="402dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="16dp"
+            android:lineSpacingExtra="8sp"
+            android:text="Foreign Studies"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="39sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="348dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#FFFFFF"
+            android:lineSpacingExtra="8sp"
+            android:padding="10sp"
+            android:radius="10dp"
+            android:text="Smartphones have become a popular medium of social as well as academic connection. Proponents of smartphone usage in higher education institutes assert that students communicate with each other through their cellphones to exchange notes, lectures, and assignments and for productive academic discussions. (Hartley, Bendixen, Gianoutsos and Shreve, 2022)
+The explosion of smartphone use in higher education has been phenomenal in our contemporary digital society. As digital natives, students in institutions of higher learning cannot be separated from their smartphones. Recent reports revealed that, on average, young people, including students between the ages of 18 and 24 years, access and look at their smartphone 214 times a day and 1500 times in a week. Given that digital natives are also learners, many educational apps have now been designed to meet students’ needs. In South Korea, a study by Han and Yi found that approximately 99% of college students had adopted smartphones and that having a good smartphone with diversely interesting qualities was a trend among the students as it allows for many functions to be used anytime and anywhere. (Faimau, Tlhowe and Tlhaolang, 2022)
+Due to the prevalence of smartphones in our society, excessive use and even addiction have become significant global issues. Although numerous studies have examined the relationships between mobile phone use and educational outcomes, many such studies have yielded mixed findings. Most of these studies have explored the effects of problematic smartphone use and academic performance using students' self-reported course grades. Hence, this study focuses on student learning because course grades do not always measure the learning outcomes. Thus, one of the goals of this meta-analysis is to examine whether smartphone use in the classroom affects students’ learning. (Sunday, Adesope and Maarhuis, 2022)"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="76dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="52dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#FFFFFF"
+            android:radius="30dp"
+            android:textAlignment="viewStart"
+            app:icon="@drawable/ic_baseline_arrow_back_24"
+            app:iconSize="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

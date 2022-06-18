@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#734CFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#734CFF"
+        tools:context=".Introduction">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/textView1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/_81181027_5138881112857924_4847457469443161260_n__1_" />
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="469dp"
+            android:layout_height="93dp"
+            android:layout_marginTop="16dp"
+            android:lineSpacingExtra="8sp"
+            android:text="INTRODUCTION"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="33sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="348dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#FFFFFF"
+            android:lineSpacingExtra="8sp"
+            android:padding="10sp"
+            android:radius="10dp"
+            android:text="The researcher chose this study because most IT students use smartphones, and when using smartphones, it has an impact on their academic performance. We chose this study because we want to know how the use of smartphones impacts the student academics performances.
+According to Oyelere / Suhonen (2016), having lecture slides and other course materials on a smartphone makes learning easier for students because they can use their smartphone to review or study their lecture anywhere, anytime, and they can also use their smartphone when they are outside to engage in learning activities.
+The use of a smartphone has both a positive and negative impact on an IT student's academic performance. A smartphone is a mobile computing device that can be used for a variety of tasks. IT students can do coding in a smartphone while doing activities and quizzes, which has a favorable impact on IT students' academic performance. It can also help IT students because they can do it without a laptop and computer. For the negative impact of smartphones on IT students' academic performance. When IT students are doing activities and quizzes that require coding, it is difficult for them to do so on a smartphone because it is difficult to type the code, and some apps that make coding easy are only available for laptop and computer devices. Doing coding on a smartphone can take too long to complete the task and cause them to be late to pass.
+The importance of this study is to know about the impact of smartphones on IT students' academic performance, and those who will read it will gain knowledge about the negative and positive impact of smartphones on IT students' academic performance.
+The main purpose of this study was to know the impact of smartphones to the academic performance of IT students.
+The researchers selected are Grade 11 students in academic strand that are enrolled this 2nd semester schoolyear 2020-2021 from STI Academic Las pinas.
+"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="76dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginEnd="48dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#FFFFFF"
+            android:radius="30dp"
+            android:textAlignment="viewStart"
+            app:icon="@drawable/ic_baseline_arrow_back_24"
+            app:iconSize="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

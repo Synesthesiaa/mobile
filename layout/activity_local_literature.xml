@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#734CFF">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#734CFF"
+        tools:context=".Local_Literature">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:adjustViewBounds="true"
+            app:layout_constraintBottom_toTopOf="@+id/textView1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/_81181027_5138881112857924_4847457469443161260_n__1_" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="402dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="16dp"
+            android:lineSpacingExtra="8sp"
+            android:text="LOCAL Literature"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF"
+            android:textSize="39sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="335dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="348dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#FFFFFF"
+            android:lineSpacingExtra="8sp"
+            android:padding="10sp"
+            android:radius="10dp"
+            android:text="According to xinhua (2014) Filipinos are using their Smartphone not only to communicate but also as mobile computers as well, according to a recent market study issued.TNS, a global customized research company, said in its report that Filipino consumers are not just using smartphones to call and text messages and photos, but also as a means to have internet- on-the-go, allowing users to be always online. Of the 38,000 respondents in Metro Manila, 75 percent of the respondents surveyed used smartphones to take photos or videos; 45 percent to browse the internet; 44 percent to access their social networking sites, and 37 percent to check their emails. The study was conducted from November 2012 to January 2013. Based on the findings of the study, the increase in various mobile activities explains the growing trend of Wi-Fi access in public areas, said TNS Philippines Managing Director Gary de Ocampo. About 35 percent of Metro Manila respondents connect to the internet via Wi-Fi access in public areas in 2013. The study also showed that Filipino consumers changed their purchasing priorities from buying phones based on physical features to choosing a phone that will enhance personal experience. Smartphone usage in the Philippines is now at 53 percent compared to overall mobile phone usage of 89 percent. The study identified five growth potentials for increased mobile usage video calling, Wi-Fi at home, watching live TV shows, blogging, and streaming videos like YouTube. The sale of smartphones in the Philippine market is seen to increase significantly in the next few years as prices go down. The TNS study also revealed that most Filipinos living in Metro Manila own multiple screens or more than just one device. A typical household owns at least four of the following devices: a mobile phone (89 percent), smartphone (53 percent), tablet (14 percent), desktop (39 percent), laptop/netbooks (37 percent), and smart TV (4 percent.)"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="76dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="136dp"
+            android:layout_marginEnd="52dp"
+            android:background="@drawable/rounded"
+            android:backgroundTint="#FFFFFF"
+            android:radius="30dp"
+            android:textAlignment="viewStart"
+            app:icon="@drawable/ic_baseline_arrow_back_24"
+            app:iconSize="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
